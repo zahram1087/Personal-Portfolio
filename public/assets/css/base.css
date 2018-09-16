@@ -92,7 +92,7 @@ body {
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
-  color: #888;
+  color: rgb(0, 0, 0);
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -111,12 +111,12 @@ font-family: 'Source Sans Pro', sans-serif;
 font-size: 19pt;
 font-weight: 300;
 line-height: 1.75em;
-color: #888;
+color: rgb(5, 0, 0);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #666;
+  color: rgb(10, 1, 1);
   line-height: 1.5em;
 }
 
@@ -126,7 +126,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
   h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-    color: #333;
+    color: rgb(5, 0, 0);
   }
 
 h2 {
