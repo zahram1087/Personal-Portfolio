@@ -117,7 +117,7 @@
 			}
 
 			#main > section.one {
-				background-color: #282F44;
+				/* background-color: #282F44; */
 				background-image: url("../../images/banner.jpg");
 			}
 
@@ -171,7 +171,7 @@
       
       }
 
-      @media screen and (max-width: 960px) {
+      @media screen and (max-width: 737px) {
         /* Item */
 
 			.item {
@@ -180,7 +180,7 @@
 
       }
 
-      @media screen and (max-width: 960px){
+      @media screen and (max-width: 737px){
 
 
 			#main {

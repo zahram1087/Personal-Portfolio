@@ -33,7 +33,7 @@
 
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 737px) {
 
     .container {
       width: 100%;
@@ -1024,7 +1024,7 @@
     
         }
     
-        @media screen and (max-width: 960px) {
+        @media screen and (max-width: 737px) {
     
           .row {
             display: flex;
@@ -1867,7 +1867,7 @@ text-align: center;
 	#headerToggle {
 		display: none;
 	}
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 737px) {
     /* Icons */
 
 			ul.icons a {
@@ -1971,6 +1971,27 @@ text-align: center;
           width: 3.25em;
           height: 2.25em;
           line-height: 2.25em;
+        }
+
+        body.header-visible #main {
+          -moz-transform: translateX(275px);
+          -webkit-transform: translateX(275px);
+          -ms-transform: translateX(275px);
+          transform: translateX(275px);
+        }
+  
+        body.header-visible #headerToggle {
+          -moz-transform: translateX(275px);
+          -webkit-transform: translateX(275px);
+          -ms-transform: translateX(275px);
+          transform: translateX(275px);
+        }
+  
+        body.header-visible #header {
+          -moz-transform: translateX(0);
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0);
         }
 
   }
